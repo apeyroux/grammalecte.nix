@@ -28,7 +28,7 @@ python3Packages.buildPythonPackage rec {
    meta = {
       description = "Grammalecte est un correcteur grammatical open source dédié à la langue française.";
       homepage = "https://dicollecte.org/grammalecte/";
-      license = licenses.gpl3;
-      maintainers = with maintainers; [ apeyroux ];
+      # license = licenses.gpl3;
+      # maintainers = with maintainers; [ apeyroux ];
     };
 }
